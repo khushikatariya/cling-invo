@@ -6,9 +6,24 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "aws-sdk": "^2.1359.0",
+    "bootstrap": "^5.2.3",
+    "buffer": "^6.0.3",
+    "classnames": "^2.3.2",
+    "generate-password": "^1.7.0",
+    "html2pdf.js": "^0.10.1",
+    "js-cookie": "^3.0.1",
+    "jspdf": "^2.5.1",
+    "jwt-decode": "^3.1.2",
+    "pdfjs-dist": "^3.5.141",
     "react": "^18.2.0",
+    "react-aws-s3": "^1.5.0",
+    "react-confetti": "^6.1.0",
     "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
   }
 }

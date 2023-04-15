@@ -1,0 +1,66 @@
+
+.sidenav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #f1f1f1;
+    width: 168px;
+    overflow: hidden;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .sidenav a {
+    display: block;
+    color: #000;
+    padding: 20px 18px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .sidenav a.active {
+    background: #04aa6d;
+    color: #fff;
+  }
+  
+  .sidenav a:hover:not(.active) {
+    background: #555;
+    color: #fff;
+  }
+  
+  .content {
+    margin-left: 180px;
+    font-size: 17px;
+    height: 1000px;
+    margin-top: 20px;
+  }
+
+  .btn{
+    padding-bottom: 20px;
+    
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidenav {
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+  
+    .sidenav a {
+      float: left;
+    }
+  
+    .content {
+      margin-left: 0px;
+      padding: 0 17px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidenav a {
+      float: none;
+      text-align: center;
+    }
+  }
+  
